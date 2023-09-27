@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Ricardo Patiño - Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Ricardo Patiño</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="C:\Users\Racha\OneDrive - Universidad Fidélitas\Documentos\Fidelitas - Ing Sistemas\Portafolio\WEB-PORTFOLIO-HTML-CSS-JS\Ricardo Patiño Foto.jpeg" alt="">
+            </div>
+            <h1>Ricardo Patiño</h1>
+            <h2> Ingeniero de Software - FullStack</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/ricardo.p.jimenez.5"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://wa.me/+50688795100"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.linkedin.com/in/ricardopatino1/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://rickpatinor.wixsite.com/hotelvillagrace"><i class="fa-solid fa-globe"></i></a>
+                <a href="https://github.com/Ricardo-Patino?tab=repositories"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <class="contenido-seccion">
+            <h2>SOBRE MI</h2>
+            <p>Hola, me llamo <B><u>Ricardo Patiño.</u></B> Soy Desarrollador de software y Programador web. Y tengo las siguientes habilidades: Web Developer | SQL Alchemy | Python | React.js | REST APIs | Flask | Capacidad de análisis | Manejo de Datos | Soy apasionado por desarrollar y crear soluciones innovadoras.</p>
+        </br>
+            <p>Ingeniero en Desarrollo Informático con experiencia en soporte y soluciones en Redes CISCO. He construido aplicaciones con React.js y Python. Usando HTML, CSS, Ajax, Bootstrap y JavaScript. Tengo experiencia en Gerencia, tareas administrativas, Marketing, y Atención al Cliente.</p>
+            </br>
+                
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <div class="col"></div>
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Nacimiento</strong>
+                            26-02-1988
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            <a href="tel:+50688795100">+506 88795100</a> (click para llamar)
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            <a href="mailto:rickpatinor@gmail.com" class="pv-contact-info__contact-link link-without-visited-state t-14" target="_blank" rel="noopener noreferrer"> rickpatinor@gmail.com </a>(click to email)
+                        </li>
+                        <li>
+                            <strong>Página web</strong>
+                            <a href="https://rickpatinor.wixsite.com/hotelvillagrace">Página web Hotel Villa Grace</a>
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Heredia, Costa Rica
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Web Content Manager - FullStack Web Developer</span>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>INTERESES</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>MAC</br>Windows</br>LINUX</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-running"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <h3>LENGUAJES DE PROGRAMACIÓN:</h3></br>
+
+                <table style="width:25%"class="center">
+                  <tr>
+                  <ul>
+                    <td><li>Java</li></td>
+                    <td><li>Python</li></td>
+                  </ul>
+                  </tr>
+                    <tr>
+                    <ul>
+                    <td><li>HTML</li></td>
+                    <td><li>CSS</li></td>
+                    </ul>
+                  </tr>
+                      <tr>
+                      <ul>
+                    <td><li>JavaScript</li></td>
+                    <td><li>ReactJS</li></td>
+                    </ul>
+                  </tr>
+                     <tr>
+                   <ul>
+                    <td><li>Bootstrap</li></td>
+                    <td><li>Context</li></td>
+                   </ul>
+                  </tr>
+                    <tr>
+                    <ul>
+                    <td><li>Flux</li></td>
+                    <td><li>Hooks</li></td>
+                </ul>
+                  </tr>
+                  
+                </table>
+            </br></br>
+            <button>
+               <a href="C:\Users\Racha\OneDrive - Universidad Fidélitas\Documentos\Fidelitas - Ing Sistemas\Portafolio\WEB-PORTFOLIO-HTML-CSS-JS\ResumeRicardoPatiño2023.pdf" download="ResumeRicardoPatiño2023" target="_blank">Resume> Download/Descargar <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>HABILIDADES</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>HABILIDADES TÉCNICAS</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Librerias REACT-JS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>CMS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>HABILIDADES PROFESINALES</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>CURRICULUM</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>EDUCACIÓN</h3>
+
+                    <div class="item izq">
+                        <h4>Full-Stack Software Develoment</h4>
+                        <span class="casa">4Geeks Academy</span>
+                        <span class="fecha">2021</span>
+                        <p>Full-Stack development course.
+                        </br>Malla Académica:
+                        </br></br>
+                           <ul>
+                            <li>HMTL+CSS</li>
+                            <li>Bootstrap</li>
+                            <li>JavaScript</li>
+                            <li>ReactJS</li> 
+                            <li>Context</li>
+                            <li>Flux</li> 
+                            <li>Hooks</li>
+                            <li>Python</li>
+                            <li>Flask</li>
+                            <li>REST API's</li>
+                            <li>SQLalchemy</li>
+                            <li>Algorithms</li> </ul></br>
+                            
+                            
+                           <p>Institución Licenciada por el Departamento de Educación de Estados Unidos y seleccionada por el Ministerio de Ciencia, Tecnología y Telecomunicaciones de Costa Rica.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>REDES CISCO </h4>
+                        <span class="casa">CISCO ACADMEDY</span>
+                        <span class="fecha">2015 - 2016</span>
+                        <p>Redes CISCO</br>
+                        </br>
+                            Redes de internet Cisco.
+                            Habilidades: Interconexión en red, VLANS, WLAN, Networ security.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Administración de empresas</h4>
+                        <span class="casa">Universidad Latina de Costa Rica</span>
+                        <span class="fecha">2007 - 2010</span>
+                        <p> Desarrollo profesional en el área de la administración. Finanzas, Mercadeo, Contabilidad, Gerencia, RRHH.
+                        </br>Skills: Gestión de pequeñas empresas · Gestión de proyectos · Sales Management</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <div class="col derecha">
+                    <h3>EXPERIENCIA DE TRABAJO</h3>
+                    <div class="item der">
+                        <h4>Technical Producer - Technical Services/Campaign Solutions</h4>
+                        <span class="casa">Meet Marigold</span>
+                        <span class="fecha">2022 - 2023</span>
+                        <p></br>
+                            <ul>
+                                <li>Diseñar y desarrollar plantillas y campañas de marketing multicanal adaptables a dispositivos móviles utilizando; HTML, SQL, Groovy, CSS, JavaScript y otras tecnologías basadas en web.</li>
+                                <li>Plataformas: Messaging, CheetahMail, Distributed Marketing, Loyalty, EDP, Experiences, Journey Designer.</li>
+                                <li>Herramientas: Postman, Email on Acid, Expressions Web 4.</li>
+                                <li>Plataformas de tickets: Salesforce, JIRA.</li>
+                                <li>Proporcionar información proactiva durante el descubrimiento y desarrollo de requisitos para implementaciones de servicios de campaña y otros proyectos.</li>
+                                <li>Ayudar en la implementación de nuevos clientes en las plataformas Cheetah Digital. Orientar y recomendar al equipo y/o al cliente sobre cómo optimizar y aprovechar las capacidades de la plataforma.</li>
+                                <li>Identificar ambigüedades en los activos o instrucciones proporcionadas y garantice la claridad.</li>
+                                <li>Ayudar al equipo de calidad a desarrollar planes de pruebas de control de calidad adecuados para cada solución dinámica.</li>
+                                <li>Comunicarse activa y eficazmente con los clientes para proporcionar pruebas y completar las revisiones necesarias.</li>
+                                <li>Interactuar directamente con clientes en los proyectos asignados y responder preguntas sobre el estado del mismo. </li>
+                                <li>Resolver los problemas de los clientes, proponer soluciones y derivar a la persona adecuada al punto de resolución. </li>
+                                <li>Desarrolla y mantiene documentación sólida y presentaciones para clientes según sea necesario. </li>
+                                <li>Gestionar proyectos de principio a fin, con poca o ninguna supervisión.</li></ul></p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Campaign Manager</h4>
+                        <span class="casa">Movable Ink</span>
+                        <p>Práctica Profesional</p>
+                        <span class="fecha">2021</span>
+                        <p></br>
+                            <ul>
+                                <li>Crear contenido dinámico con la plataforma y herramientas de la empresa utilizando: HTML/CSS/JavaScript.</li>
+                                <li>Responder y gestionar tickets de campaña.</li>
+                                <li>Autogestión de calidad, asegurar de que cumple con todos los requisitos (cero errores).</li>
+                                <li>Plataformas de tickets: Salesforce, JIRA.</li>
+                                <li>Proporcionar información proactiva durante el descubrimiento y desarrollo de requisitos para implementaciones de servicios de campaña y otros proyectos.</li>
+                                <li>Realiza un seguimiento del tiempo para cada construcción.</li>
+                                <li>Administrar una cartera creciente de campañas de clientes.</li>
+                             </ul></p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Agente de Soporte de Redes Cisco</h4>
+                        <span class="casa">Cisco - SYKES Costa Rica</span>
+                        <span class="fecha">2018 - 2021</span>
+                        <p></br>
+                            <ul>
+                                <li>Con un excelente servicio al cliente, brindsr soporte técnico e información sobre el producto.</li>
+                                <li>Abrir casos de soporte y escalarlos según sea necesario a ingenieros/arquitectos de nivel 2 o superiores.</li>
+                                <li>Configurar perfiles de acceso a la red.</li>
+                                <li>Configuración de red, software y productos para garantizar que los dispositivos y productos de la empresa funcionen en el entorno de Internet/wifi del Cliente.</li>
+                                <li>Análisis de red e inalámbrico para mejorar el rendimiento de los dispositivos en sistemas Wifi.</li>
+                                <li>Solución de problemas y configuración de redes domésticas, configuración del enrutador y seguridad de Internet.</li>
+                                <li>Con un excelente servicio al cliente, brindamr soporte e información sobre el producto.</li>
+                               <li>Soporte telefónico y por correo electrónico para productos CISCO.</li>
+                               <li>Ayudar a los compañeros de trabajo a aclarar dudas y guiarlos sobre el proceso interno correcto y ayudarlos a brindar soporte a los usuarios finales/escalaciones.</li>
+                               <li>Analizar los problemas de red, software y hardware para llegar a la causa del problema de red y solucionarlo.</li>
+                               <li>Soporte técnico y de usuario final.</li>
+                               <li>Hacer un seguimiento de los clientes hasta que se resuelva el problema.</li>
+                                </ul></p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <style>
+                img{
+                    max-width: 100%;
+                    max-height: 100%;
+                }
+                .proyecto{
+                    width: 300px;
+                    height: 500px;
+                }
+            </style>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="C:\Users\Racha\OneDrive - Universidad Fidélitas\Documentos\Fidelitas - Ing Sistemas\Portafolio\WEB-PORTFOLIO-HTML-CSS-JS\Logo.jpg" alt="Web de Hotel">
+                    <div class="overlay">
+                        <a href="https://rickpatinor.wixsite.com/hotelvillagrace"><h3>Hotel Villa Grace</h3><p>PÁGINA Web</p></a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="C:\Users\Racha\OneDrive - Universidad Fidélitas\Documentos\Fidelitas - Ing Sistemas\Portafolio\WEB-PORTFOLIO-HTML-CSS-JS\github-logo.jpeg" alt="Proyects/Portfolio">
+                    <div class="overlay">
+                        <a href="https://github.com/Ricardo-Patino?tab=repositories"><h3>GIT HUB</h3><p>PROYECTOS</p></a> 
+                        
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="C:\Users\Racha\OneDrive - Universidad Fidélitas\Documentos\Fidelitas - Ing Sistemas\Portafolio\WEB-PORTFOLIO-HTML-CSS-JS\OvercookFIDE.png" alt="Java Game">
+                    <div class="overlay">
+                        <a href=" https://github.com/Ricardo-Patino/OverCooked-Fide.git"><h3>OVERCOOKED</h3><p>JUEGO EN JAVA</p></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Name / Nombre">
+                    <input type="text" placeholder="Phone / Teléfono">
+                    <input type="text" placeholder=" Email / Correo">
+                    <input type="text" placeholder="Concern / Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message / Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="C:\Users\Racha\OneDrive - Universidad Fidélitas\Documentos\Fidelitas - Ing Sistemas\Portafolio\WEB-PORTFOLIO-HTML-CSS-JS\ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i><h3>Heredia, Costa Rica.</h3>Click and select a tool.
+                                <div class="showtheway">Heredia, Costa Rica<a href="https://showtheway.io/to/10.006607,-84.11201" target="_blank" title="Show the Way to 10.006607,-84.11201 with your favorite navigation application"></a></div><script src="https://showtheway.io/w.js" async="async" type="text/javascript"></script>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                <a href="tel:+50688795100">Call +506 88795100</a> 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                <a href="mailto:rickpatinor@gmail.com" class="pv-contact-info__contact-link link-without-visited-state t-14" target="_blank" rel="noopener noreferrer"> rickpatinor@gmail.com </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/ricardo.p.jimenez.5"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://wa.me/+50688795100"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.linkedin.com/in/ricardopatino1/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://rickpatinor.wixsite.com/hotelvillagrace"><i class="fa-solid fa-globe"></i></a>
+            <a href="https://github.com/Ricardo-Patino?tab=repositories"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
