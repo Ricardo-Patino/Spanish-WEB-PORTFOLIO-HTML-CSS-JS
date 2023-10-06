@@ -450,21 +450,27 @@
     </section>
 
     <!-- SECCION CONTACTO -->
-    <section id="contacto" class="contacto">
+       <section id="contacto" class="contacto">
         <div class="contenido-seccion">
             <h2>CONTACTO</h2>
             <div class="fila">
                 <!-- Formulario -->
                 <div class="col">
-                    <input type="text" placeholder="Name / Nombre">
+                    <form action="https://formsubmit.co/el/jojule" method="POST"></form>
+                    <input type="hidden" name="_subject" value="Nuevo Correo!">
+                    <input type="name" placeholder="Name / Nombre" required>
                     <input type="text" placeholder="Phone / Teléfono">
-                    <input type="text" placeholder=" Email / Correo">
-                    <input type="text" placeholder="Concern / Tema">
+                    <input type="email" name="email" placeholder=" Email / Correo" required>
+                    <input type="text" placeholder="Concern / Tema" required>
                     <textarea name="" id="" cols="30" rows="10" placeholder="Message / Mensaje"></textarea>
-                    <button>
-                        Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                    <input type="file" name="attachment" accept="image/png, image/jpeg">
+                    <button onclick="alert('Email sent! / Correo Enviado!');">
+                        Sent / Enviar <i class="fa-solid fa-paper-plane"></i>
                         <span class="overlay"></span>
                     </button>
+                    
+                </form>
+
                 </div>
                 <!-- Mapa -->
                 <div class="col">
